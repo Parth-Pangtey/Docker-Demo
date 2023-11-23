@@ -7,4 +7,4 @@ WORKDIR /app
 COPY . /app
  
 # Specify the command to run on container start
-CMD ["java", "-jar", "log4j-api-2.20.0.jar"]
+CMD ["java", "-jar", "*.jar"]
